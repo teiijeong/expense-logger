@@ -1,0 +1,21 @@
+# Python virtual environment & cache
+.venv/
+venv/
+__pycache__/
+
+# All CSV files everywhere (raw bank statements)
+*.csv
+*.CSV
+
+# All local databases (SQLite deduplication state)
+*.db
+*.sqlite
+
+# All credentials & environment files
+*.json
+.env
+.env.*
+
+# OS metadata
+.DS_Store
+Thumbs.db
